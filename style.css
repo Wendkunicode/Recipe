@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Outfit', sans-serif;
+    font-size: 16px;
+    text-align:justify;
+    background:hsl(0, 0%, 100%);
+}
+body h2{
+    font-family: 'Young Serif';
+    color:hsl(14, 45%, 36%);
+}
+.title p{
+    opacity: 50%;
+}
+.container{
+    margin: 25px;
+}
+header img{
+    width: 100%;
+}
+.title h1{
+    font-family: 'Young Serif';
+    margin-bottom: 15px;
+}
+body p{
+    margin-bottom: 15px;
+    opacity: 50%;
+    color: black;
+}
+.title p{
+    margin-bottom: 20px;
+}
+section{
+    background:hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding:20px;
+    margin-bottom: 20px;
+}
+section h2{
+    font-family: 'Outfit';
+    color:hsl(332, 51%, 32%);
+    margin-bottom: 15px;
+}
+section ul{
+    color: hsl(332, 51%, 32%);
+    padding-left: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+main h2{
+    margin-bottom: 15px;
+}
+.ingredient ul{
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.415);
+}
+.ingredient p{
+    color: black;
+}
+.instructions p{
+    color: black;
+}
+.instructions ol{
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.415);
+}
+.inst li{
+    color: hsl(332, 51%, 32%);
+}
+.inst{
+    color: black;
+    text-align: justify;
+}
+span{
+    font-weight: bold;
+}
+.tab{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left:35px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+.tab h2{
+    font-family: 'Outfit';
+    font-size: 16px;
+}
+.nutrition p{
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
+}
+footer a{
+    text-decoration: none;
+}
+.corps{
+    width:100%;
+}
+@media screen and (min-width: 900px) {
+    body{
+        background: hsl(330, 71%, 83%);
+    }
+    .corps{
+        background: hsl(0, 0%, 100%);
+        width: 30%;
+        margin: 50px auto;
+        padding: 30px;
+        border-radius: 15px;
+    }
+    header img{
+        border-radius: 10px;
+    }
+    footer{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+  }
